@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 80px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #120d2e;
+}
+.coming{
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 13px;
+}
