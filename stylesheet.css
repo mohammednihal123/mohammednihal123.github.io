@@ -33,7 +33,10 @@ body{
     padding: 20px;
 } */
 
-.header .navbar {
+
+
+
+.header .nav-head .navbar {
     display: flex;
     align-items: center;
     max-width: 1200px;
@@ -276,36 +279,7 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .header{
         padding: 10px 20px;
     }
@@ -370,6 +344,6 @@ footer{
 
     }
 
-}
+} */
 
 
