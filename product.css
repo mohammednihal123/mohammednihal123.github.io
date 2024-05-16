@@ -332,6 +332,7 @@ footer{
 }
 
 @media screen and (max-width: 400px) {
+
     .container{
         position: relative;
         flex-wrap: wrap;
@@ -350,6 +351,7 @@ footer{
         .card-text{
             font-size: 15px;
             color: #333;
+            margin-bottom: -35px;
         }
         .card-body{
             padding: 30px 20px 60px;
@@ -372,6 +374,8 @@ footer{
             margin-left: 50px;
             margin-top: 0;
         }
+    
+   
     
     
 }
