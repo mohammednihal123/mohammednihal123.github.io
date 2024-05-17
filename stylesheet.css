@@ -18,27 +18,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
 body{
-    height: 100vh;
-    background: url("images/hero-bg.jpg");
-    background-position: center;
-    background-size: cover;
+    background-color: #e9f9ff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -50,11 +36,23 @@ body{
     padding: 0 20px;
 }
 
+.img{
+    height: 50vh;
+    width: 30%;
+    margin-left: 100%;
+    margin-bottom: -550px;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 8px;
+
+}
+
 .hero-section .content{
     color: #000;
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    margin: 60px auto;
+    margin-top: 50px;
 }
 
 .hero-section .content .arabic{
@@ -230,12 +228,18 @@ footer{
 
 @media screen and (max-width: 400px){
 
-    body{
-    height: 100vh;
-    background: url("images/hero-bg.jpg");
-    background-position: center;
-    background-size: cover;
-}
+    .img{
+        height: 30vh;
+        width: 70%;
+        margin-left: 100%;
+        margin-bottom: -260px;
+        margin-left: 80px;
+        margin-top: 0px;
+        padding-left: 8px;
+    
+    }
+
+
 
 .hero-section {
     height: 100vh;
@@ -243,6 +247,7 @@ footer{
     margin-left: 50%;
     align-items: center;
     padding: 0 20px;
+    margin-top: 140px;
 }
 
 .hero-section .content h1{
@@ -256,7 +261,7 @@ footer{
     color: #000;
     max-width: 600px;
     width: 200%;
-    margin: 0 -130px;
+    margin: 0 -110px;
 }
 
 
