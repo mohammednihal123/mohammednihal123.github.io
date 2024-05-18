@@ -204,13 +204,6 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-footer{
-    background-color: #000;
-}
-.footer-container{
-    width: 100%;
-    padding: 50px 30px 20px;
-}
 .social-icons{
     display: flex;
     justify-content: center;
@@ -237,44 +230,89 @@ footer{
     color: #fff;
     transition: 0.5s;
 }
-.footer-nav{
-    margin: 30px 0;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.footer-nav ul{
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
     display: flex;
-    justify-content: center;
-    list-style-type: none;
+    flex-wrap: wrap;
 }
-.footer-nav ul li a{
+
+ul{
+    list-style: none;
+
+}
+
+.footer{
+    background-color: #1d241f;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
     color: #fff;
-    margin: 20px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #f95c0d;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #111;
     text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.5;
-    transition: 0.5s;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
 }
-.footer-nav ul li a:hover{
-    opacity: 1;
+.footer-col ul li a:hover{
+    color: #f95c0d;
+    padding-left: 10px;
 }
-.footer-bottom{
-    background-color: #8888;
-    padding: 20px;
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255,0.2);
+    margin: 0px 10px 10px 0;
     text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffff;
+    transition: all 0.5s ease;
 }
-.footer-bottom p{
-    color:#fff;
-    cursor: pointer;
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    text-decoration: none;
-    margin: 0px 5px;
-}
-.footer-bottom a{
-    text-decoration: none;
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #fff;
 }
 
 
@@ -293,7 +331,7 @@ footer{
     }
 
     nav{
-        width: 450px;
+        width: 650px;
     }
 
     nav ul{
@@ -329,14 +367,6 @@ footer{
     color: cyan;
     background: none;
 }
-
-
-
-
-
-
-
-
 
 
     .img{
@@ -376,11 +406,123 @@ footer{
      
 }
 
+.footer{
+    margin-right: -250px;
+}
+
+.footer-col{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
 
 
 
 
 }
+
+/* @media screen and (max-width: 400px){
+
+    nav .menu-btn i{
+        display: block;
+
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+
+    }
+
+    nav{
+        width: 550px;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+
+    }
+
+    #click:checked ~ ul{
+        left: 0%;
+
+    }
+
+    nav ul li{
+        margin: 40px 0;
+
+    }
+
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active:hover{
+    color: cyan;
+    background: none;
+}
+
+
+    .img{
+        height: 35vh;
+        width: 70%;
+        margin-left: 100%;
+        margin-bottom: -225px;
+        margin-left: 35px;
+        margin-top: 100px;
+        padding-left: 8px;
+    
+    }
+
+
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    margin-left: 50%;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 140px;
+}
+.hero-section .content{
+    color: #000;
+    max-width: 600px;
+    width: 200%;
+    margin: 0 -110px;
+}
+
+
+.hero-section .content h1{
+    font-size: 2rem;
+    max-width: 600px;
+    min-width: none;
+    color: #013220;  
+     
+}
+
+.footer{
+    margin-right: -150px;
+}
+
+.footer-col{
+    width: 100%;
+}
+
+
+
+
+
+} */
+
 
 
 
