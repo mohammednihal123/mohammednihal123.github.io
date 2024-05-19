@@ -18,6 +18,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
+
+body{
+    background-color: #fff;
+
+}
+
 
 nav{
     height: 70px;
@@ -320,7 +330,13 @@ ul{
 
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
+
+    body{
+        background-color: #fff;
+        position: relative;
+    }
+    
 
     nav .menu-btn i{
         display: block;
@@ -362,6 +378,7 @@ ul{
         font-size: 20px;
         display: block;
     }
+    
 
     nav ul li a:hover,
     nav ul li a.active:hover{
@@ -371,13 +388,13 @@ ul{
 
 
     .img{
-        height: 35vh;
-        width: 70%;
+        height: 18vh;
+        width: 30%;
         margin-left: 100%;
-        margin-bottom: -225px;
-        margin-left: 35px;
-        margin-top: 100px;
-        padding-left: 8px;
+        margin-bottom: -150px;
+        margin-left: 30px;
+        margin-top: 0px;
+        padding-left: 0px;
     
     }
 
@@ -386,7 +403,7 @@ ul{
 .hero-section {
     height: 100vh;
     display: flex;
-    margin-left: 50%;
+    margin-left: 110px;
     align-items: center;
     padding: 0 20px;
     margin-top: 140px;
@@ -406,6 +423,7 @@ ul{
     color: #013220;  
      
 }
+
 
 .footer{
     margin-right: -250px;
@@ -422,107 +440,6 @@ ul{
 
 
 }
-
-/* @media screen and (max-width: 400px){
-
-    nav .menu-btn i{
-        display: block;
-
-    }
-    #click:checked ~ .menu-btn i:before{
-        content: "\f00d";
-
-    }
-
-    nav{
-        width: 550px;
-    }
-
-    nav ul{
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        background-color: #111;
-        height: 100vh;
-        width: 100%;
-        display: block;
-        text-align: center;
-        transition: all 0.3s ease;
-
-    }
-
-    #click:checked ~ ul{
-        left: 0%;
-
-    }
-
-    nav ul li{
-        margin: 40px 0;
-
-    }
-
-    nav ul li a{
-        font-size: 20px;
-        display: block;
-    }
-
-    nav ul li a:hover,
-    nav ul li a.active:hover{
-    color: cyan;
-    background: none;
-}
-
-
-    .img{
-        height: 35vh;
-        width: 70%;
-        margin-left: 100%;
-        margin-bottom: -225px;
-        margin-left: 35px;
-        margin-top: 100px;
-        padding-left: 8px;
-    
-    }
-
-
-
-.hero-section {
-    height: 100vh;
-    display: flex;
-    margin-left: 50%;
-    align-items: center;
-    padding: 0 20px;
-    margin-top: 140px;
-}
-.hero-section .content{
-    color: #000;
-    max-width: 600px;
-    width: 200%;
-    margin: 0 -110px;
-}
-
-
-.hero-section .content h1{
-    font-size: 2rem;
-    max-width: 600px;
-    min-width: none;
-    color: #013220;  
-     
-}
-
-.footer{
-    margin-right: -150px;
-}
-
-.footer-col{
-    width: 100%;
-}
-
-
-
-
-
-} */
 
 
 

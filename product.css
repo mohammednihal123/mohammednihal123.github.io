@@ -303,15 +303,13 @@ ul{
     
 }
 
-@media screen and (max-width: 400px) {
-
-
-
+@media screen and (max-width: 600px) {
 
 
 
 .container-1{
         position: relative;
+        display: flex;
         /* flex-wrap: wrap; */
         max-width: 1350px;
         padding: 0;
@@ -324,6 +322,8 @@ ul{
 .card{
     width: calc(50% - 40px);
     margin-left: -45px;
+    width: 100%;
+
             
 }
     
